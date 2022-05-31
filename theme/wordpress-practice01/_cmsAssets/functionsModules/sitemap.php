@@ -2,13 +2,13 @@
 
 // sitemap
 add_filter(
-  'wp_sitemaps_post_types',
-  function( $post_types ) {
-    unset( $post_types['jobs'] );
-    unset( $post_types['qa'] );
+	'wp_sitemaps_post_types',
+	function( $post_types ) {
+		unset( $post_types['jobs'] );
+		unset( $post_types['qa'] );
 		unset( $post_types['shop'] );
     return $post_types;
-  }
+	}
 );
 add_filter(
 	'wp_sitemaps_taxonomies',
@@ -21,12 +21,12 @@ add_filter(
 );
 //wp-sitemapユーザー名を隠す
 add_filter(
-  'wp_sitemap_add_provider',
-  function( $provider, $name ){
-    if( 'users' === $name ) {
-      return false
-    }
-    return $provider;
+  'wp_sitemaps_add_provider',
+  function( $provider, $name ) {
+      if ( 'users' === $name ) {
+          return false;
+      }
+      return $provider;
   },
   10,2
-)
+);
