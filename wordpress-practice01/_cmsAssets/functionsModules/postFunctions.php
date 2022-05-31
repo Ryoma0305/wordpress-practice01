@@ -63,3 +63,49 @@ function getCareersListPost($p){
 		'thumb' => $thumb,
 	];
 }
+
+//////////////////////////////////////////////
+// Jobs
+//////////////////////////////////////////////
+
+// TOPページ
+function getJobsTopListPost($p){
+  global $gVars;
+  $ID = $p->ID;
+  $occupation = get_fieldU("occupation", $ID);
+  $stop_entry = get_field("stop_entry", $ID);
+
+  if(!$occupation) return false;
+  if($stop_entry) return false;
+
+  $count = count($occupation);
+
+  if($count === 0) return false;
+
+  $occupation = array_map(function($job){
+    return $job['job_name'];
+  }, $occupation);
+
+  return [
+    'title' => get_the_title($ID),
+    'link' => "/careers/?job=" . $ID,
+    'count' => $count,
+    'job_names' => implode(" - ", $occupation),
+  ]
+}
+
+// 一覧ページ
+function getJobsListPost($p){
+  global $gVars;
+  $ID = $p->ID;
+  $occupation = get_field("occupation", $ID);
+  $occupation = $occupation ?: [];
+  return[
+    "id" => $ID,
+    "title" => get_the_title($ID),
+    "stop_entry" => get_field("stop_entry", $ID),
+    "description" => get_field("description", $ID),
+    "entry_link" => get_field("entry_link", $ID),
+    "occupation" => $occupation,
+  ];
+}
