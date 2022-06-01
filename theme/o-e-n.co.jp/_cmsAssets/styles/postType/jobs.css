@@ -1,0 +1,12 @@
+/* ======================================
+jobs 投稿画面
+======================================= */
+/* 詳細ページリンク */
+.wp-admin #edit-slug-box{
+  display:none;
+}
+
+/* 投稿を表示リンク */
+.wp-admin #message.notice-success > p > a {
+  display: none !important;
+}
