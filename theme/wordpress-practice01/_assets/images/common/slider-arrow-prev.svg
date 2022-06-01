@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.734" height="28.883" viewBox="0 0 28.734 28.883">
+  <g id="arrow" transform="translate(14.592 28.573) rotate(-135)">
+    <g id="グループ_2" data-name="グループ 2" transform="translate(0 0)">
+      <line id="線_1" data-name="線 1" y2="27.769" transform="translate(19.636 0.364) rotate(45)" fill="none" stroke="#fff" stroke-width="2"/>
+      <line id="線_3" data-name="線 3" y2="19.804" transform="translate(19.604)" fill="none" stroke="#fff" stroke-width="2"/>
+      <line id="線_2" data-name="線 2" y2="19.804" transform="translate(20 0.364) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
