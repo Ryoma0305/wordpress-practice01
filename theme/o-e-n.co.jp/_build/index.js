@@ -745,7 +745,7 @@ var ResizePlugin = /** @class */ (function () {
      */
     ResizePlugin.init = function (options) {
         var _this = this;
-        Object.defineProperty(this, 'resizeTo', 
+        Object.defineProperty(this, 'resizeTo',
         /**
          * The HTML element or window to automatically resize the
          * renderer's view element to match width and height.
@@ -17287,9 +17287,9 @@ var BlurFilterPass = /** @class */ (function (_super) {
         var _this = this;
         var vertSrc = generateBlurVertSource(kernelSize, horizontal);
         var fragSrc = generateBlurFragSource(kernelSize);
-        _this = _super.call(this, 
+        _this = _super.call(this,
         // vertex shader
-        vertSrc, 
+        vertSrc,
         // fragment shader
         fragSrc) || this;
         _this.horizontal = horizontal;
@@ -41390,7 +41390,7 @@ class GradView extends pixi_js__WEBPACK_IMPORTED_MODULE_0__.Container {
   constructor(id) {
     super(); //中心にひとつ
 
-    this.center = new pixi_js__WEBPACK_IMPORTED_MODULE_0__.Sprite.from('/wp-content/themes/o-e-n.co.jp/_assets/images/common/bg_' + id + '.png');
+    this.center = new pixi_js__WEBPACK_IMPORTED_MODULE_0__.Sprite.from('/wp-content/themes/theme/o-e-n.co.jp/_assets/images/common/bg_' + id + '.png');
     this.center.anchor.set(0.5, 0.5);
     this.addChild(this.center); //サテライト用コンテナ
 
@@ -41464,7 +41464,7 @@ class ParticleView extends pixi_js__WEBPACK_IMPORTED_MODULE_0__.Container {
     this.distance = 0;
     this.rot = rot; //配置
 
-    const col = new pixi_js__WEBPACK_IMPORTED_MODULE_0__.Sprite.from('/wp-content/themes/o-e-n.co.jp/_assets/images/common/bg_' + id + '.png');
+    const col = new pixi_js__WEBPACK_IMPORTED_MODULE_0__.Sprite.from('/wp-content/themes/theme/o-e-n.co.jp/_assets/images/common/bg_' + id + '.png');
     col.anchor.set(0.5, 0.5);
     col.scale.set(0.8, 0.8);
     this.addChild(col); //回転速度
@@ -64926,7 +64926,7 @@ __webpack_require__.r(__webpack_exports__);
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/ 	
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -64940,17 +64940,17 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			loaded: false,
 /******/ 			exports: {}
 /******/ 		};
-/******/ 	
+/******/
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 	
+/******/
 /******/ 		// Flag the module as loaded
 /******/ 		module.loaded = true;
-/******/ 	
+/******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
+/******/
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	!function() {
@@ -64963,7 +64963,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return getter;
 /******/ 		};
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
 /******/ 		// define getter functions for harmony exports
@@ -64975,7 +64975,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			}
 /******/ 		};
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/global */
 /******/ 	!function() {
 /******/ 		__webpack_require__.g = (function() {
@@ -64987,12 +64987,12 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			}
 /******/ 		})();
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	!function() {
 /******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	!function() {
 /******/ 		// define __esModule on exports
@@ -65003,7 +65003,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
 /******/ 	}();
-/******/ 	
+/******/
 /******/ 	/* webpack/runtime/node module decorator */
 /******/ 	!function() {
 /******/ 		__webpack_require__.nmd = function(module) {
@@ -65012,7 +65012,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return module;
 /******/ 		};
 /******/ 	}();
-/******/ 	
+/******/
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.

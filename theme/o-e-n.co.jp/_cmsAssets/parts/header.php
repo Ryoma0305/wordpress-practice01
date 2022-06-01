@@ -2,7 +2,7 @@
 <header class="l-header js-header">
   <div class="l-header__logo">
     <a href="/">
-      <img src="/wp-content/themes/o-e-n.co.jp/_assets/images/common/logo.svg" alt="OEN">
+      <img src="/wp-content/themes/theme/o-e-n.co.jp/_assets/images/common/logo.svg" alt="OEN">
     </a>
   </div>
   <nav class="l-header__nav">
@@ -23,7 +23,7 @@
 	<div class="l-header__spUpper">
 		<div class="l-header__spLogo">
 			<a href="/">
-				<img src="/wp-content/themes/o-e-n.co.jp/_assets/images/common/logo.svg" alt="OEN">
+				<img src="/wp-content/themes/theme/o-e-n.co.jp/_assets/images/common/logo.svg" alt="OEN">
 			</a>
 		</div>
 		<address class="l-header__address">
@@ -36,7 +36,7 @@
 			<small class="l-header__copyright">©2022 OEN inc.All Rights Reserved.</small>
 		</address>
 		<button class="l-header__close js-header-close">
-			<img src="/wp-content/themes/o-e-n.co.jp/_assets/images/common/close.svg" alt="close">
+			<img src="/wp-content/themes/theme/o-e-n.co.jp/_assets/images/common/close.svg" alt="close">
 		</button>
 	</div>
 	<!--/ upper -->

@@ -36,7 +36,7 @@ function add_links_welcome_panel()
 {
     ?>
 	<div class="welcome_panel_header">
-		<a class="welcome_panel_header_link" href="/wp-content/themes/o-e-n.co.jp/_manual_1msfjvd3a03mbazgg6kDe_babxx27/oen_cms.pdf" target="_blank" rel="noopener">
+		<a class="welcome_panel_header_link" href="/wp-content/themes/theme/o-e-n.co.jp/_manual_1msfjvd3a03mbazgg6kDe_babxx27/oen_cms.pdf" target="_blank" rel="noopener">
 		■ マニュアルのダウンロードはこちら</a>
 	</div>
 	<div class="welcome_panel_sections">
