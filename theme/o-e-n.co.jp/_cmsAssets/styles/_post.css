@@ -1,0 +1,58 @@
+/* ======================================
+投稿画面
+======================================= */
+
+/* エディタ */
+
+.wp-admin .post-type-page{
+
+}
+
+.wp-admin .wp-media-buttons {
+  /* display: none !important; */
+}
+
+.wp-admin .postbox-header + .inside > .acf-field > .acf-label > label {
+  font-size: 20px !important;
+}
+.wp-admin .acf-label .description {
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.wp-admin .acf-table .description {
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.wp-admin .acf-fc-layout-handle {
+  font-weight: bold;
+}
+/* .wp-admin .wp-editor-area {
+  height: 160px !important;
+} */
+.wp-admin .related_box .acf-checkbox-list li {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+
+/* よく使うもの */
+.category-tabs {
+  display: none !important;
+}
+
+/* 新しいカテゴリーを追加 */
+.wp-admin .taxonomy-add-new {
+  display: none !important;
+}
+
+/* タイトル下の説明文 */
+.wp-admin #title-under-description {
+  color: #555;
+  padding-top: 5px;
+}
+
+.wp-admin .acf-editor-wrap iframe[id^="acf-editor-"],
+.wp-admin .acf-editor-wrap .wp-editor-area {
+  min-height: 400px !important;
+}

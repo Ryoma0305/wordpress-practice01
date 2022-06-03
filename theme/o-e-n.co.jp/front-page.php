@@ -53,7 +53,7 @@
 		<!-- 画像の場合 -->
 		<!--
 			<div class="pg-top__aboutMovieContainer">
-				<img class="pg-top__aboutImage" src="/wp-content/themes/o-e-n.co.jp/_assets/images/about/kv.png" alt="">
+				<img class="pg-top__aboutImage" src="/wp-content/themes/theme/o-e-n.co.jp/_assets/images/about/kv.png" alt="">
 			</div>
 			-->
 		<!--/ 画像の場合 -->
@@ -103,7 +103,7 @@
 				</div>
 			</div>
 			<div class="pg-top__caseStudyLoopText c-loopText js-caseStudy-loopText">
-				<img class="pg-top__caseStudyLoopTextImg c-loopText__img" src="/wp-content/themes/o-e-n.co.jp/_assets/images/top/casestudy_loop_txt.png" alt="CASE STUDY">
+				<img class="pg-top__caseStudyLoopTextImg c-loopText__img" src="/wp-content/themes/theme/o-e-n.co.jp/_assets/images/top/casestudy_loop_txt.png" alt="CASE STUDY">
 			</div>
 			<a class="c-btn c-btn--small js-lineHover js-arrowHover pg-top__caseStudyMoreBtn" href="/works/">
 				<div class="c-btn__text">More Works</div>
@@ -222,7 +222,7 @@ with New Power and the Internet.
 		<div class="pg-top__contactWrapper js-contact-wrapper">
 			<canvas class="pg-top__contactBG js-contact-bg-canvas"></canvas>
 			<a href="<?php echo $gVars["contact"]; ?>" ref="noopener" target="_blank" class="c-loopText js-contact-loopText js-cursor-contact">
-				<img class="c-loopText__img pg-top__contactLoopText" src="/wp-content/themes/o-e-n.co.jp/_assets/images/top/contact_loop_txt.png" alt="Keep in touch Contact">
+				<img class="c-loopText__img pg-top__contactLoopText" src="/wp-content/themes/theme/o-e-n.co.jp/_assets/images/top/contact_loop_txt.png" alt="Keep in touch Contact">
 			</a>
 		</div>
 	</section>
